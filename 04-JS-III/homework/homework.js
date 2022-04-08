@@ -67,14 +67,25 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+  for(var i = 0; i < array.length; i++) {
+    if(array[i] === elemento) {
+      return true;
+    }
+  }
+  return false;
 }
-
 
 function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+  base = 0
+  for(var i = 0; i < array.length; i++) {
+    suma = base + numeros[i];
+  }
+  return suma;
 }
+
 
 
 function promedioResultadosTest(resultadosTest) {
@@ -95,6 +106,7 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
+
 }
 
 
