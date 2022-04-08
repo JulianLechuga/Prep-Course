@@ -95,6 +95,7 @@ function tienePropiedad(objeto, propiedad) {
     return true;
   } else {
       return false;
+  }
 }
 
 function verificarPassword(usuario, password) {
@@ -104,7 +105,6 @@ function verificarPassword(usuario, password) {
   // // Tu código:
   return (usuario["password"]) === password;
     
-  }
 }
 
 function actualizarPassword(usuario, nuevaPassword) {

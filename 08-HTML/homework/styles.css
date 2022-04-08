@@ -1,0 +1,19 @@
+        h1 {
+            color: red
+        }
+
+        #thirdDiv {
+            background-color: brown;
+            padding: 50px;
+            border: 16px violet dotted;
+        }
+        
+        img {
+                width: 400px;
+                height: 750px;
+            }       
+
+       #spanId {
+           margin: 50px;
+       }
+
